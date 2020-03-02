@@ -1,0 +1,19 @@
+{
+  "name": "@pierreminiggio/does-some-parent-have-class",
+  "version": "1.0.0",
+  "description": "Does Some Parent Have Class",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreminiggio/does-some-parent-have-class.git"
+  },
+  "author": "Pierre MINIGGIO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierreminiggio/does-some-parent-have-class/issues"
+  },
+  "homepage": "https://github.com/pierreminiggio/does-some-parent-have-class#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
