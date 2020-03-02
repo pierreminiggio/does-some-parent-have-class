@@ -1,11 +1,11 @@
 const doesSomeParentHaveClass = (element, classname, checkCurrent = false) => {
     if (
         checkCurrent
-        && element.className !== undefined
-        && element.className.split(' ').indexOf(classname) >=0
+        && element.classList.contains(classname)
     ) {
 		return true
-	}
+    }
+
     return element.parentNode && doesSomeParentHaveClass(element.parentNode, classname, true)
 }
 
