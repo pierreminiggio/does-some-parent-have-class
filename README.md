@@ -2,13 +2,10 @@ Simple Ajax Content Loader
 
 Installation :
 ```
-npm install pierreminiggio/binary-url-reader
+npm install pierreminiggio/does-some-parent-have-class
 ```
 
 Utilisation : 
 ```javascript
-const BinaryUrlReader = require('@pierreminiggio/binary-url-reader')
-BinaryUrlReader.read('[url]', (reader) => {
-	console.log(reader.res)
-})
+const doesSomeParentHaveClass = require('@pierreminiggio/does-some-parent-have-class')
 ```
